@@ -315,7 +315,7 @@ for i = 1,#r do
 gg.clearResults()
 for i = 1,4do
 gg.sleep(1000)
-gg.toast(i.." sec")
+gg.toast(i.." sᴇᴄᴏɴᴅ")
 end
 
 gg.clearResults()
@@ -354,7 +354,7 @@ for i = 1,#r do
 			gg.setValues(p)
 	end
 gg.clearResults()
-gg.toast("สำเร็จ")
+gg.toast("sᴜssᴄᴇs")
 end
 
 function L2() -- มืด
@@ -415,7 +415,7 @@ for i = 1,#r do
 gg.clearResults()
 for i = 1,4do
 gg.sleep(1000)
-gg.toast(i.." sec")
+gg.toast(i.." sᴇᴄᴏɴᴅ")
 end
 
 gg.clearResults()
@@ -454,7 +454,7 @@ for i = 1,#r do
 			gg.setValues(p)
 	end
 gg.clearResults()
-gg.toast("สำเร็จ")
+gg.toast("sᴜssᴄᴇs")
 end
 
 
@@ -550,7 +550,7 @@ for i = 1,#r do
 gg.clearResults()
 for i = 1,4do
 gg.sleep(1000)
-gg.toast(i.." sec")
+gg.toast(i.." sᴇᴄᴏɴᴅ")
 end
 
 gg.clearResults()
@@ -589,7 +589,7 @@ for i = 1,#r do
 			gg.setValues(p)
 	end
 gg.clearResults()
-gg.toast("สำเร็จ")
+gg.toast("sᴜssᴄᴇs")
 end
 
 
@@ -672,7 +672,7 @@ for i = 1,#r do
 			gg.setValues(p)
 	end	
 gg.clearResults()
-gg.toast("The function has been succeeded")
+gg.toast("ᴛʜᴇ ғᴜɴᴄᴛɪᴏɴ ʜᴀs ʙᴇᴇɴ sᴜᴄᴄᴇᴇᴅᴇᴅ")
 end
 
 ---2
@@ -734,7 +734,7 @@ for i = 1,#r do
 gg.clearResults()
 for i = 1,4do
 gg.sleep(1000)
-gg.toast(i.." second")
+gg.toast(i.." sᴇᴄᴏɴᴅ")
 end
 
 gg.clearResults()
@@ -773,7 +773,7 @@ for i = 1,#r do
 			gg.setValues(p)
 	end
 gg.clearResults()
-gg.toast(" Excellent! ")
+gg.toast(" ᴇxᴄᴇʟʟᴇɴᴛ! ")
 end
 
 
@@ -798,7 +798,7 @@ for i = 1,#r do
 	end	
 		gg.clearResults()
 gg.clearResults()	
-gg.toast("cleared")
+gg.toast("ᴄʟᴇᴀʀᴇᴅ")
 end
 
 
@@ -861,7 +861,7 @@ for i = 1,#r do
 gg.clearResults()
 for i = 1,4do
 gg.sleep(1000)
-gg.toast(i.." second")
+gg.toast(i.." sᴇᴄᴏɴᴅ")
 end
 
 gg.clearResults()
@@ -900,7 +900,7 @@ for i = 1,#r do
 			gg.setValues(p)
 	end
 gg.clearResults()
-gg.toast(" Excellent! ")
+gg.toast(" ᴇxᴄᴇʟʟᴇɴᴛ! ")
 end
 
 --5
@@ -942,7 +942,7 @@ for i = 1,#r do
 			gg.removeListItems(p) 
 	end	
 		gg.clearResults()
-gg.toast("Seya")
+gg.toast("sᴇʏᴀ")
 end
 
 function SM()
@@ -1003,7 +1003,7 @@ for i = 1,#r do
 gg.clearResults()
 for i = 1,4do
 gg.sleep(1000)
-gg.toast(i.." second")
+gg.toast(i.." sᴇᴄᴏɴᴅ")
 end
 
 gg.clearResults()
@@ -1042,7 +1042,7 @@ for i = 1,#r do
 			gg.setValues(p)
 	end
 gg.clearResults()
-gg.toast(" Excellent! ")
+gg.toast(" ᴇxᴄᴇʟʟᴇɴᴛ! ")
 end
 
 function WC5()
@@ -1114,7 +1114,7 @@ gg.addListItems(t)
 t = nil
 
 gg.clearResults()
-gg.toast("🔵ON")
+gg.toast("🔵ᴏɴ")
 end
 
 function D2()
@@ -1132,7 +1132,7 @@ gg.addListItems(t)
 t = nil
 
 gg.clearResults()
-gg.toast("🔴OFF")
+gg.toast("🔴ᴏғғ")
 end
 
 --4×1--
@@ -1149,9 +1149,9 @@ end
 
 --ATTACK--
 function ATK()
-Q = gg.choice({" 🔵╚ᴏᴘᴇɴ ᴀʀᴍs ǫᴜɪᴄᴋʟʏ " ," 🔵╚ᴏᴘᴇɴ ᴇᴀʀʟʏ " ," 🔴╚ᴛᴜʀɴ ᴏғғ ʙᴏᴛʜ","ʙᴀᴄᴋ"},nil," 🚀╓ᴀᴛᴛᴀᴄᴋ ғᴜɴᴄᴛɪᴏɴ ")
+Q = gg.choice({" 🔵╚ᴏᴘᴇɴ ᴀʀᴍs ǫᴜɪᴄᴋʟʏ " ," 🔵╚ᴏᴘᴇɴ ᴇᴀʀʟʏ [ɢᴏᴅ ᴀᴛᴋ]" ," 🔴╚ᴛᴜʀɴ ᴏғғ ʙᴏᴛʜ","ʙᴀᴄᴋ"},nil," 🚀╓ᴀᴛᴛᴀᴄᴋ ғᴜɴᴄᴛɪᴏɴ ")
 if Q == 1 then A1() end
-if Q == 2 then A2() end
+if Q == 2 then A1() gg.sleep(500) A2() end
 if Q == 3 then A3() end
 if Q == 4 then MN2() end
 end
@@ -1176,7 +1176,7 @@ for i = 1,#r do
 	end	
 		gg.clearResults()
 gg.clearResults()	
-gg.toast("QuickHands ON")
+gg.toast("🔵ǫᴜɪᴄᴋʜᴀɴᴅs ᴏɴ")
 end
 
 function A2()
@@ -1199,7 +1199,7 @@ for i = 1,#r do
 	end	
 		gg.clearResults()
 gg.clearResults()	
-gg.toast("ATKSPD ON")
+gg.toast('⠀⠀⠀⠀⣠⣶⡾⠏⠉⠙⠳⢦⡀⠀⠀⠀⢠⠞⠉⠙⠲⡀⠀\n⠀⠀⠀⣴⠿⠏⠀⠀⠀⠀⠀⠀⢳⡀⠀⡏⠀⠀⠀⠀⠀⢷\n⠀⠀⢠⣟⣋⡀⢀⣀⣀⡀⠀⣀⡀⣧⠀⢸⠀⠀⠀⠀⠀ ⡇\n⠀⠀⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲⣿⠀⣸⠀⠀OK⠀ ⡇\n⠀⠀⣟⣿⡭⠀⠀⠀⠀⠀⢱⠀⠀⣿⠀⢹⠀⠀⠀⠀⠀ ⡇\n⠀⠀⠙⢿⣯⠄⠀⠀⠀⢀⡀⠀⠀⡿⠀⠀⡇⠀⠀⠀⠀⡼\n⠀⠀⠀⠀⠹⣶⠆⠀⠀⠀⠀⠀⡴⠃⠀⠀⠘⠤⣄⣠⠞⠀\n⠀⠀⠀⠀⠀⢸⣷⡦⢤⡤⢤⣞⣁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⢀⣤⣴⣿⣏⠁⠀⠀⠸⣏⢯⣷⣖⣦⡀⠀⠀⠀⠀⠀⠀\n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿⠀⠀⠀⠀⠀⠀\n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏⠀⠀⠀⣄⢸⠀⠀⠀⠀⠀⠀\n⣿⣿⣧⣀⣿………⣀⣰⣏⣘⣆⣀') 
 end
 
 function A3()
@@ -1222,7 +1222,7 @@ for i = 1,#r do
 	end	
 		gg.clearResults()
 gg.clearResults()	
-gg.toast("OFF")
+gg.toast("🔴ᴏғғ ᴛᴜʀɴ ʙᴏᴛʜ")
 end
 
 --through--MAP--
@@ -1253,7 +1253,7 @@ for i = 1,#r do
 	end	
 		gg.clearResults()
 gg.clearResults()	
-gg.toast("Through Wall ON")
+gg.toast("🔵ᴏɴ ᴛʜʀᴏᴜɢʜ ᴡᴀʟʟ")
 end
 
 function M2()
@@ -1293,7 +1293,7 @@ for i = 1,#r do
 			gg.addListItems(p)
 	end	
 gg.clearResults()	
-gg.toast("Through Wall OFF")
+gg.toast("🔴ᴏғғ ᴛʜʀᴏᴜɢʜ ᴡᴀʟʟ")
 end
 
 --skills--
@@ -1311,7 +1311,7 @@ gg.refineNumber("7", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("30", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast('Sussces') 
+gg.toast('sᴜssᴄᴇs💯') 
 end
 
 function BS()
@@ -1321,12 +1321,12 @@ gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
 gg.getResults(100,nil,nil,nil,nil,nil,nil,nil,nil)
 gg.editAll("30", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("Sussces")
+gg.toast("sᴜssᴄᴇs💯")
 end
 
 --underMap--
 function DOWN()
-DO = gg.choice({" 🔵╚ᴏᴘᴇɴ ","ʙᴀᴄᴋ"},nil," 👟╓ᴛʜɪs ғᴜɴᴄᴛɪᴏɴ ᴄᴀɴ ᴏɴʟʏ \n👞╚ʙᴇ ᴜsᴇᴅ ᴘᴇʀ ᴍᴀᴘ. ")
+DO = gg.choice({" 🔵╚ᴏᴘᴇɴ ","ʙᴀᴄᴋ"},nil," 👟╓ᴛʜɪs ғᴜɴᴄᴛɪᴏɴ ᴄᴀɴ ᴏɴʟʏ \n 👟╚ʙᴇ ᴜsᴇᴅ ᴘᴇʀ ᴍᴀᴘ. ")
 if DO == 1 then DN() end
 if DO == 2 then MN2() end
 end
@@ -1337,7 +1337,7 @@ gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
 revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('Sussces')
+gg.toast('sᴜssᴄᴇs💯')
 end
 
 
@@ -1399,11 +1399,11 @@ end
 
 ---เปิดก่อน---
 function OPEN()
-A = gg.choice({"╚ʏᴇs" ,"╚ɴᴏ","╚ᴅᴏɴᴇ","ʙᴀᴄᴋ"},nil,"\n▄▀█ █░░ █░░   █ █▄░█\n█▀█ █▄▄ █▄▄   █ █░▀█\n╓ᴀʀᴇ ʏᴏᴜ ᴏɴ ᴛʜᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ sᴇʟᴇᴄᴛɪᴏɴ ᴘᴀɢᴇ?\n╟(ʏᴇs, ᴘʀᴇss ʏᴇs, ɴᴏ, ᴘʀᴇss ɴᴏ.)")
+A = gg.choice({"╚ʏᴇs","╚ᴅᴏɴᴇ","ʙᴀᴄᴋ"},nil,"\n▄▀█ █░░ █░░   █ █▄░█\n█▀█ █▄▄ █▄▄   █ █░▀█\n╓ᴀʀᴇ ʏᴏᴜ ᴏɴ ᴛʜᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ sᴇʟᴇᴄᴛɪᴏɴ ᴘᴀɢᴇ?\n╟(ʏᴇs, ᴘʀᴇss ʏᴇs, ɴᴏ, ᴘʀᴇss ɴᴏ.)")
 if A == 1 then TWO() end
-if A == 2 then HOME() gg.sleep(500) gg.processKill() end
-if A == 3 then MN2()end
-if A == 4 then HOME()end
+--if A == 2 then HOME() gg.sleep(500) gg.processKill() end
+if A == 2 then MN2()end
+if A == 3 then HOME()end
 end
 
 --2000--

@@ -254,7 +254,7 @@ end
 --end
  
 function WC2() --- ข้อหัว2
-A = gg.choice({"ғʟᴀsʜ ᴛᴏᴡᴇʀ⚡","sʜᴀᴅᴏᴡ ᴛᴏᴡᴇʀ👤","ʙᴀᴄᴋ"}, nil, "⚠️ ᴡᴀʀɴɪɴɢ ⚠️\nʜᴏᴡ ᴛᴏ ᴅᴏ ɪᴛ ғɪʀsᴛ\nᴘʀᴇss ᴛᴏ ᴜsᴇ ᴡᴀʀᴘ ᴛᴏ ʀᴏᴋᴏᴋᴏ ғɪʀsᴛ\nᴘʀᴇss ᴛʜᴇ ᴅᴇsɪʀᴇᴅ ᴘʟᴀᴄᴇ.🏰")
+A = gg.choice({"ғʟᴀsʜ ᴛᴏᴡᴇʀ⚡","sʜᴀᴅᴏᴡ ᴛᴏᴡᴇʀ👤","ʙᴀᴄᴋ"}, nil, "⚠️ ᴡᴀʀɴɪɴɢ ⚠️\nʜᴏᴡ ᴛᴏ ᴅᴏ ɪᴛ ғɪʀsᴛ\n(ᴘʀᴇss ᴛᴏ ᴜsᴇ ᴡᴀʀᴘ ᴛᴏ ʀᴏᴋᴏᴋᴏ ғɪʀsᴛ)\nᴘʀᴇss ᴛʜᴇ ᴅᴇsɪʀᴇᴅ ᴘʟᴀᴄᴇ.🏰")
 if A == 1 then L1() gg.sleep(2300) xyz1() gg.sleep(400) REMOVE() zxc() end
 if A == 2 then L2() gg.sleep(2300) xyz1() gg.sleep(400) REMOVE() zxc() end
 if A == 3 then MN1()end

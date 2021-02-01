@@ -1,0 +1,310 @@
+gg.setVisible(false)
+gg.alert("️🆗Support Android 5.1🆗\n🚀 Script By : IRUNA Online Mod Editon\n🚀 Developer : FB:Narudech Banpaneuk\n🚀 Youtube : RE:Cheats")
+gg.sleep(100)
+
+HOMEDM=1
+function MENU()
+S = gg.multiChoice({"🔐เปิดใช้งานฟังชั่นต่าง ๆ " ," 📌ลบดีเลย์+ลบเวลาร่าย " ," 📌ความเร็วเคลื่อนที่ " ," 📌ลบท่าทางโจมตี " ," 📌ทะลุแมพ " ," 📌สกิลไกล " ," 📌มุดแมพ " ," ❌Exit "},nil," ⚠️This script is made for Vmos version 5.1 or other devices similar of the version⚠️")
+if S == nil then else
+if S [1] == true then OPEN() end
+if S [2] == true then DD() end
+if S [3] == true then RUN() end
+if S [4] == true then ATK() end
+if S [5] == true then MAP() end
+if S [6] == true then FAR() end
+if S [7] == true then DOWN() end
+if S [8] == true then EXIT() end
+end
+HOMEDM=-1
+end
+
+function OPEN()
+A = gg.choice({" YES " ," NO "},nil," ⚠️คุณอยู่ในหน้าเลือกตัวละครหรือไม่? อยู่กด YES ไม่อยู่กด NO ")
+if A == 1 then TWO() end
+if A == 2 then gg.processKill() end
+end
+
+--2000--
+function TWO()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("2000", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+local w = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(w) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "2000"
+		v.freeze = true
+	end
+end
+gg.addListItems(w)
+gg.toast("Successfully")
+gg.clearResults()
+end
+
+--Delay--
+function DD()
+B = gg.choice({" 🔵เปิด " ," 🔴ปิด "},nil,"ฟังชั่นลบดีเลย์+เวลาร่าย ")
+if B == 1 then D1() end
+if B == 2 then D2() end
+end
+
+function D1()
+gg.clearResults()
+r = {"-32","-43","-53"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("Delay hacks ON")
+end
+
+function D2()
+gg.clearResults()
+r = {"-32","-43","-53"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.removeListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("Delay hacks OFF")
+end
+
+--4×1--
+function RUN()
+A = gg.prompt({"⚡เลือกระดับความเร็วเคลื่อนที่ 1 ~ 1000⚡"}, nil, {"number"})
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll(A[1], gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("⚡")
+end
+
+--ATTACK--
+function ATK()
+Q = gg.choice({" 🔵เปิดแขนไว " ," 🔵เปิดตีไว " ," 🔴ปิดทั้งสองอย่าง "},nil," ⚔️ฟังชั่นการโจมตี ")
+if Q == 1 then A1() end
+if Q == 2 then A2() end
+if Q == 3 then A3() end
+end
+
+function A1()
+gg.clearResults()
+r = {"4"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("QuickHands ON")
+end
+
+function A2()
+gg.clearResults()
+r = {"-24"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("ATKSPD ON")
+end
+
+function A3()
+gg.clearResults()
+r = {"4","-24"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("OFF")
+end
+
+--through--MAP--
+function MAP()
+M = gg.choice({" 🔵เปิด " ," 🔴ปิด "},nil," 🚀ฟังชั่นทะลุแมพ ")
+if M == 1 then M1() end
+if M == 2 then M2() end
+end
+
+function M1()
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 1
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("Through Wall ON")
+end
+
+function M2()
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+	
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()	
+gg.toast("Through Wall OFF")
+end
+
+--skills--
+function FAR()
+SK = gg.choice({" ⚡แบ็คสแต็บ-นักฆ่า " ," ⚡เนเมซิส-พระ "},nil," 📌Assassin&Bishop ")
+if SK == 1 then AS() end
+if SK == 2 then BS() end
+end
+
+function AS()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7047;2;100;7::30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("7", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("30", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast('Sussces') 
+end
+
+function BS()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("5007;5;12::25", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.getResults(100,nil,nil,nil,nil,nil,nil,nil,nil)
+gg.editAll("30", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Sussces")
+end
+
+--underMap--
+function DOWN()
+DO = gg.choice({" 🔵เปิด "},nil," ⚠️ฟังชั่นนี้สามารถใช้ได้ แมพ ต่อ แมพ เท่านั้น ")
+if DO == 1 then DN() end
+end
+
+function DN()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('Sussces')
+end
+
+function EXIT()
+print(" 🚀ɪʀᴜɴᴀ ᴏɴʟɪɴᴇ ᴍᴏᴅ ᴇᴅɪᴛɪᴏɴ\nғʙ:sᴀʜᴀᴘʜᴜᴍ ᴛʜᴀʙᴛʜᴀᴡᴇᴇ🌈\nᴏɴʟɪɴᴇ ᴠᴇʀsɪᴏɴ💰")
+os.exit() end
+
+-----off--------
+while(true)
+do
+if gg.isVisible(true) 
+then
+HOMEDM=1 gg.setVisible(false) end
+if HOMEDM==1 then MENU() end
+end

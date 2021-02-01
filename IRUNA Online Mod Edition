@@ -1,10 +1,10 @@
 gg.setVisible(false)
-gg.alert("️🆗Support Android 5.1🆗\n🚀 Script By : IRUNA Online Mod Editon\n🚀 Developer : FB:Narudech Banpaneuk\n🚀 Youtube : RE:Cheats")
+gg.alert("️🆗กดเปิดฟังชั่นหลักก่อนเข้าไปในเกม Support Android 5.1🆗\n🚀 Script By : IRUNA Online Mod Editon\n🚀 Developer : FB:Narudech Banpaneuk\n🚀 Youtube : RE:Cheats")
 gg.sleep(100)
 
 HOMEDM=1
 function MENU()
-S = gg.multiChoice({"🔐เปิดใช้งานฟังชั่นต่าง ๆ " ," 📌ลบดีเลย์+ลบเวลาร่าย " ," 📌ความเร็วเคลื่อนที่ " ," 📌ลบท่าทางโจมตี " ," 📌ทะลุแมพ " ," 📌สกิลไกล " ," 📌มุดแมพ " ," ❌Exit "},nil," ⚠️This script is made for Vmos version 5.1 or other devices similar of the version⚠️")
+S = gg.multiChoice({"🔐เปิดใช้งานฟังชั่นหลัก " ," 📌ลบดีเลย์+ลบเวลาร่าย " ," 📌ความเร็วเคลื่อนที่ " ," 📌ลบท่าทางโจมตี " ," 📌ทะลุแมพ " ," 📌สกิลไกล " ," 📌มุดแมพ " ," ❌Exit "},nil," ⚠️This script is made for Vmos version 5.1 or other devices similar of the version⚠️")
 if S == nil then else
 if S [1] == true then OPEN() end
 if S [2] == true then DD() end
@@ -14,7 +14,7 @@ if S [5] == true then MAP() end
 if S [6] == true then FAR() end
 if S [7] == true then DOWN() end
 if S [8] == true then EXIT() end
-end
+end 
 HOMEDM=-1
 end
 
@@ -50,49 +50,39 @@ if B == 2 then D2() end
 end
 
 function D1()
-gg.clearResults()
-r = {"-32","-43","-53"}
-gg.setRanges(gg.REGION_JAVA_HEAP)
-gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
-gg.refineNumber("1~1000", gg.TYPE_FLOAT)
-q = gg.getResults(1)
+gg.searchNumber("2000;0;0;0;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
 
-for i = 1,#r do
-            p = {}
-			p[i] = {}
-		    p[i].address = q[1].address + r[i]
-			p[i].flags = gg.TYPE_FLOAT
-			p[i].value = 0
-			p[i].freeze = true
-			gg.setValues(p)
-			gg.addListItems(p)
-	end	
-		gg.clearResults()
-gg.clearResults()	
-gg.toast("Delay hacks ON")
+gg.clearResults()
+gg.toast("🔵ON")
 end
 
 function D2()
-gg.clearResults()
-r = {"-32","-43","-53"}
-gg.setRanges(gg.REGION_JAVA_HEAP)
-gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
-gg.refineNumber("1~1000", gg.TYPE_FLOAT)
-q = gg.getResults(1)
+gg.searchNumber("2000;0;0;0;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = false
+	end
+end
+gg.addListItems(t)
+t = nil
 
-for i = 1,#r do
-            p = {}
-			p[i] = {}
-		    p[i].address = q[1].address + r[i]
-			p[i].flags = gg.TYPE_FLOAT
-			p[i].value = 0
-			p[i].freeze = false
-			gg.setValues(p)
-			gg.removeListItems(p)
-	end	
-		gg.clearResults()
-gg.clearResults()	
-gg.toast("Delay hacks OFF")
+gg.clearResults()
+gg.toast("🔴OFF")
 end
 
 --4×1--
@@ -109,7 +99,7 @@ end
 
 --ATTACK--
 function ATK()
-Q = gg.choice({" 🔵เปิดแขนไว " ," 🔵เปิดตีไว " ," 🔴ปิดทั้งสองอย่าง "},nil," ⚔️ฟังชั่นการโจมตี ")
+Q = gg.choice({" 🔵เปิดแขนไว " ," 🔵เปิดตีไว " ," 🔴ปิดทั้งสองอย่าง "},nil," 🚀ฟังชั่นการโจมตี ")
 if Q == 1 then A1() end
 if Q == 2 then A2() end
 if Q == 3 then A3() end

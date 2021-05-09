@@ -1,0 +1,2132 @@
+
+
+-------------------  H o m e M e n u  -------------------
+
+gg.setVisible(false)
+gg.sleep(350)
+gg.toast("\n██▓▒­░ ►▬ WELCOME ▬◄ ░▒▓██")
+gg.sleep(600)
+gg.setVisible(true)
+PUBGMH = -1
+function HOME() --Home Menu
+MENU = gg.choice({
+           "📂 Google map 🌎",
+           "📂 Composition 🚶",
+--           "📂 ╚ᴜᴘᴅᴀᴛᴇ ᴘʟᴀʏʟɪsᴛ 📅 (🆕)",
+           "❎ E X I T ❎"
+}, nil, "🔥Can connect to facebook🔥\n🌜FB:Sahaphum thabthawee🌛\n")
+    if MENU == nil then
+  else
+    if MENU == 1 then
+      MN1()
+    end
+    if MENU == 2 then
+     OPEN()
+    end
+--    if MENU == 3 then
+--     UAT() --เปลื่ยนเป็น MN3
+--    end
+    if MENU == 3 then
+      EXIT()
+    end
+  end
+  PUBGMH = -1
+end
+
+
+-------------------  G o o g l e m a p  -------------------
+
+function MN1()
+WC = gg.multiChoice({
+           "Union sam🍫",
+           "Another world🌉",
+           "Douin ez🐆",
+           "Map easter🍳",
+           "Rare drop🎋",
+           "Starmuncher🐑",
+           "Wind ark🚁",
+           "Kijimu 🌲 (Miniboss)",
+--           "No-Updated",
+--           "No-Updated",
+           "🎒BACKING"
+}, nil, "\n⠀⠀⠀⣿⣿⡆⠀⠀⢸⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⢸⣿⡇  ⠀⣾⣿⡆⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⢰⣿⡆⠀⣾⣿⡆⠀⣾⣷ ⣿⣿⡇  ⠀⣿⣿⡇⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⠘⣿⣿⣤⣿⣿⣿⣤⣿⡇⢻⣿⡇⠀⠀⣿⣿⡇⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⡿⠀⢹⣿⣿⣿⣿⣿⣿⣿⠁⢸⣿⣇⠀⢀⣿⣿⠇⠀\n⠀⠀⠀⠙⢿⣷⣶⣶⡿⠁⠀⠈⣿⣿⠟⠀⣿⣿⠇⠀⠈⠻⣿⣶⣾⡿⠋⠀⠀")
+  if WC == nil then
+  else
+    if WC [1] == true then
+      WC1()
+    end
+    if WC [2] == true then
+     WC2()
+    end
+    if WC [3] == true then
+     WC3()
+    end
+    if WC [4] == true then
+     WC4()
+    end
+    if WC [5] == true then
+      WC5()
+    end
+    if WC [6] == true then
+      WC6()
+    end
+    if WC [7] == true then
+      WC7()
+    end
+    if WC [8] == true then
+      WC8()
+    end
+    if WC [9] == true then
+      HOME()
+    end
+    if WC [10] == true then
+      WC10()
+    end
+    if WC [11] == true then
+      HOME()
+    end
+  end
+  PUBGMH = -1
+end
+
+function WC1()  ----- ข้อหัว1 บอส uni Sam Harris-- ------
+  A = gg.choice({"Warp", "🎒BACKING"}, nil, "⚠️Warning⚠️\nHow to do it first\n[Do not press walk🏃]\n(Use the warp to sofia first)\nThen press warp\n╔╦╦\n╠╬╬╬╣\n╠╬╬╬╣ I 🍫\n╠╬╬╬╣ Chocolate\n╚╩╩╩╝")
+if A == 1 then LLL1() gg.sleep(1000) LLL2() gg.sleep(300) xyz3() LLL3() gg.sleep(2600) xyz14() xyz15()end
+if A == 2 then MN1() end
+HOMEDM=-1 
+end
+
+function LLL2() -- แมพ
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = false
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 4492
+			p[i].freeze = true
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 4492
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+end
+
+function LLL3() --เอาแมพมืดออก
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = false
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 4492
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 4492
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+end 
+
+--gg.toast('⠀⠀⠀⠀⣠⣶⡾⠏⠉⠙⠳⢦⡀⠀⠀⠀⢠⠞⠉⠙⠲⡀⠀\n⠀⠀⠀⣴⠿⠏⠀⠀⠀⠀⠀⠀⢳⡀⠀⡏⠀⠀⠀⠀⠀⢷\n⠀⠀⢠⣟⣋⡀⢀⣀⣀⡀⠀⣀⡀⣧⠀⢸⠀⠀⠀⠀⠀ ⡇\n⠀⠀⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲⣿⠀⣸⠀⠀OK⠀ ⡇\n⠀⠀⣟⣿⡭⠀⠀⠀⠀⠀⢱⠀⠀⣿⠀⢹⠀⠀⠀⠀⠀ ⡇\n⠀⠀⠙⢿⣯⠄⠀⠀⠀⢀⡀⠀⠀⡿⠀⠀⡇⠀⠀⠀⠀⡼\n⠀⠀⠀⠀⠹⣶⠆⠀⠀⠀⠀⠀⡴⠃⠀⠀⠘⠤⣄⣠⠞⠀\n⠀⠀⠀⠀⠀⢸⣷⡦⢤⡤⢤⣞⣁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⢀⣤⣴⣿⣏⠁⠀⠀⠸⣏⢯⣷⣖⣦⡀⠀⠀⠀⠀⠀⠀\n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿⠀⠀⠀⠀⠀⠀\n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏⠀⠀⠀⣄⢸⠀⠀⠀⠀⠀⠀\n⣿⣿⣧⣀⣿………⣀⣰⣏⣘⣆⣀') 
+--end
+ 
+function WC2() --- ข้อหัว2
+A = gg.choice({"Flash tower⚡","Shadow tower👤","🎒BACKING"}, nil, "⚠️Warning⚠️\nHow to do it first\n(Press to use warp to rokoko first)\nPress the desired place.🏰")
+if A == 1 then L1() gg.sleep(2300) xyz1() gg.sleep(400) REMOVE() zxc() end
+if A == 2 then L2() gg.sleep(2300) xyz1() gg.sleep(400) REMOVE() zxc() end
+if A == 3 then MN1()end
+HOMEDM=-1
+end 
+
+function L1() -- แสง
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 95500
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 95501
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end 
+gg.clearResults()
+gg.toast("Success")
+end
+
+function L2() -- มืด
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 95600
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 95601
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("Success")
+end
+
+function L3() -- ๆลๆ
+-- ยัง
+end
+ 
+function WC3() --- หัวข้อ3 บอสโดอิน
+A = gg.choice({"Douin eazy🐆","🎒BACKING"}, nil, "⚠️Warning⚠️\nHow to do it first\n(Warp to fort bailune run douin eazy)")
+if A == 1 then L() gg.sleep(2500) xyz() end
+if A == 2 then MN1()end
+HOMEDM=-1
+end 
+
+--- (วิธีแก้ ให้เปลื่ยน zxc0 เป็น L) 
+
+-- BOSS 150
+function L()
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 76560
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 76590
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("Success")
+end
+
+function WC4() 
+A = gg.choice({"Event-map🍆" ,"Madona Lv.400🐍","President mezzaluna Lv.350👧","Rudolf🐏","🎒BACKING"},nil,"⚠️Warning⚠️\nHow to do it first\n(Press to use warp to rokoko first)")
+if A == 1 then EA() gg.sleep(2500) xyz09() gg.sleep(2500) xyz10() WC4() end
+if A == 2 then M1() end
+if A == 3 then M2() end
+if A == 4 then RU() end
+--if A == 6 then REMOVE() MN1()end
+if A == 5 then MN1()end
+HOMEDM=-1
+end
+
+function EA() ---แมพ
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 76700
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+gg.toast("Success")
+end
+
+function M1() ----- เมโดน่า400
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 77162
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 77192
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("Success")
+end
+
+function M2() ---- ประมานเมซา350
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 104760
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.." second")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 104797
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast(" Excellent! ")
+end
+
+function RU() ----กวางเรนเดียร์
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 75960
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 75990
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("Success")
+end
+
+function SM() -----กวางเรนเดียร์ที่โหดมากๆ
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 111760
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 111790
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("Success")
+end
+
+function WC5()
+A = gg.choice({"Rare drop🎋","🎒BACKING"},nil,"⚠️Warning⚠️\nHow to do it first\n(Warp to fort bailune)🎄")
+if A == 1 then RD() gg.sleep(2300) RD1() xyzrd() REMOVE() text()end
+if A == 2 then MN1()end
+HOMEDM=-1
+end
+
+function RD() -- ʀᴀʀᴇ ᴅʀᴏᴘ
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 70300
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 70300
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("Success")
+end
+
+function WC6()
+A = gg.choice({"Warp","🎒BACKING"},nil,"⚠️Warning⚠️\nHow to do it first\n(Press to use warp to rokoko first)")
+if A == 1 then EA() gg.sleep(2600) xyz09() gg.sleep(2500) xyz10() gg.sleep(2500) SM() gg.sleep(2500) text1() end
+if A == 2 then MN1() end
+HOMEDM=-1
+end
+
+function WC7()
+A = gg.choice({"Wind ark","Wind ark (Boss)","🎒BACKING"},nil,"⚠️Warning⚠️\nHow to do it first\n(Warp to fort bailune)")
+if A == 1 then nawa() end
+if A == 2 then nawabos() end
+if A == 3 then MN1() end
+HOMEDM=-1
+end
+
+function nawa() ----นาวา
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 80000
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 80000
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("Success")
+end
+
+function nawabos() ----นาวาบอส
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 80010
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."Seconds")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 80010
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("Success")
+end
+
+function WC8()
+A = gg.choice({"Warp","🎒BACKING"},nil,"⚠️Warning⚠️\nHow to do it first\n(Press to use warp to rokoko first)")
+if A == 1 then mini() end
+if A == 2 then MN1() end
+HOMEDM=-1
+end
+
+function mini()
+gg.clearResults()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001",gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+r = {"-104"}
+for i = 1,#r do --hack map event
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 0
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- set xyz
+r = {"-88"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20000
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- set xyz
+r = {"-84"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20736
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- warp map
+r = {"-100","220"}
+for i = 1,#r do
+  p = {}
+	p[i] = {}
+	p[i].address = q[1].address + r[i]
+	p[i].flags = 4 
+	p[i].value = 79402
+	p[i].freeze = false
+	gg.setValues(p)
+end
+-- set xyz
+r = {"-88"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20000
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.removeListItems(p) 
+end
+
+-- set xyz
+r = {"-84"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20736
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.removeListItems(p) 
+end
+end
+
+function WC9()
+A = gg.choice({"NO","🎒BACKING"},nil,"⚠️ ᴡᴀʀɴɪɴɢ ⚠️\n\n")
+if A == 1 then HOME() end
+if A == 2 then MN1() end
+HOMEDM=-1
+end
+
+function WC10()
+A = gg.choice({"NO","🎒BACKING"},nil,"⚠️ ᴡᴀʀɴɪɴɢ ⚠️\n\n")
+if A == 1 then HOME() end
+if A == 2 then MN1() end
+HOMEDM=-1
+end
+
+
+-------------------  M e n u L o b b y  -------------------
+
+function MN2() --📂 Menu Lobby
+MG = gg.multiChoice({"Remove delay♻" ,"Death burn👻" ,"Remove attack gestures🔪" ,"Through the map🗿" ,"Far skills🎿" ,"Duck stone🚄","Movement speed🏃","🎒BACKING"},nil,"⚠️This script is made for vmos version 5.1⚠️")
+  if MG == nil then
+  else 
+    if MG [1] == true then
+      DD()
+    end
+    if MG [2] == true then
+     TFAR1()
+    end
+    if MG [3] == true then
+     ATK()
+    end
+    if MG [4] == true then
+     MAP()
+    end
+    if MG [5] == true then
+      FAR()
+    end
+    if MG [6] == true then 
+      DOWN()
+    end
+    if MG [7] == true then
+      RUN()
+      end
+    if MG [8] == true then
+      HOME()
+    end
+    end
+  PUBGMH = -1
+end
+
+--Delay--
+function DD()
+B = gg.choice({"Open" ,"Close","🎒BACKING"},nil,"🚀Remove delay and auto skip♻")
+if B == 1 then D1() AUTO1() end
+if B == 2 then D2() end
+if B == 3 then MN2() end
+end
+
+function AUTO1() 
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11,001;2::305", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("2", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "1"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.setVisible(true)
+gg.toast('Success')
+end
+
+function D1()
+gg.searchNumber("2000;0;0;0;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+gg.toast("ON")
+end
+
+function D2()
+gg.searchNumber("2000;0;0;0;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = false
+	end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+gg.toast("OFF")
+end
+
+
+function RUN() ------- 4 × 100 
+A = gg.prompt({"Choose a level of movement speed. 1 ~ 1000⚡"}, nil, {"Numbers"})
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll(A[1], gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Success")
+end
+
+function ATK() ------โจมตี
+Q = gg.choice({"Open hit fast [Speed ATK]" ,"Open hit leak [GOD ATK]" ,"Open quick arm [MOVABLE]","Turn off both","🎒BACKING"},nil," 🚀Attack function")
+if Q == 1 then A1() end
+if Q == 2 then A1() gg.sleep(500) A2() end
+if Q == 3 then A3()end 
+if Q == 4 then A4() end
+if Q == 5 then MN2() end
+end
+
+function A1()
+gg.clearResults()
+r = {"4"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("Success")
+end
+
+function A2()
+gg.clearResults()
+r = {"-24"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = true
+			p[i].freezeType = gg.FREEZE_IN_RANGE
+			p[i].freezeFrom = -250
+			p[i].freezeTo = 1
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast('⠀⠀⠀⠀⣠⣶⡾⠏⠉⠙⠳⢦⡀⠀⠀⠀⢠⠞⠉⠙⠲⡀⠀\n⠀⠀⠀⣴⠿⠏⠀⠀⠀⠀⠀⠀⢳⡀⠀⡏⠀⠀⠀⠀⠀⢷\n⠀⠀⢠⣟⣋⡀⢀⣀⣀⡀⠀⣀⡀⣧⠀⢸⠀⠀⠀⠀⠀ ⡇\n⠀⠀⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲⣿⠀⣸⠀⠀OK⠀ ⡇\n⠀⠀⣟⣿⡭⠀⠀⠀⠀⠀⢱⠀⠀⣿⠀⢹⠀⠀⠀⠀⠀ ⡇\n⠀⠀⠙⢿⣯⠄⠀⠀⠀⢀⡀⠀⠀⡿⠀⠀⡇⠀⠀⠀⠀⡼\n⠀⠀⠀⠀⠹⣶⠆⠀⠀⠀⠀⠀⡴⠃⠀⠀⠘⠤⣄⣠⠞⠀\n⠀⠀⠀⠀⠀⢸⣷⡦⢤⡤⢤⣞⣁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⢀⣤⣴⣿⣏⠁⠀⠀⠸⣏⢯⣷⣖⣦⡀⠀⠀⠀⠀⠀⠀\n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿⠀⠀⠀⠀⠀⠀\n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏⠀⠀⠀⣄⢸⠀⠀⠀⠀⠀⠀\n⣿⣿⣧⣀⣿………⣀⣰⣏⣘⣆⣀') 
+end
+
+function A3()
+gg.clearResults()
+r = {"4"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = true
+			p[i].freezeType = gg.FREEZE_MAY_INCREASE
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("Success")
+end
+
+
+function A4()
+gg.clearResults()
+r = {"4","-24"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = false 
+			p[i].freezeType = gg.FREEZE_IN_RANGE
+			p[i].freezeFrom = -250
+			p[i].freezeTo = 1
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("OFF")
+end
+
+--through--MAP--
+function MAP()
+M = gg.choice({"Open" ,"Close","🎒BACKING"},nil," 🐾Function through map")
+if M == 1 then M11() end
+if M == 2 then M22() end
+if M == 3 then MN2() end
+end
+
+function M11()
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 1
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("ON")
+end
+
+function M22()
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+	
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()	
+gg.toast("OFF")
+end
+
+function TFAR1()
+SK = gg.choice({"Loop lock 🔁" ,"Death born 👻 (Automatic)"  ,"🎒BACKING"},nil,"🙅 Use farm elban 350-450")
+if SK == 1 then LR() gg.sleep(500) LR1() end
+if SK == 2 then LOOP() end
+if SK == 3 then MN2() end
+end
+
+function LR()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("16;0;-1;0::30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1;0::30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+end
+
+function LR1()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+t = gg.getResults(30) -- load items
+t[1].value = '1'
+t[1].freeze = true
+gg.clearResults()	
+gg.toast("Success")
+end
+
+-------------------  S K L L S (N E W)  -------------------
+
+function FAR() 
+ZI = gg.multiChoice({
+           "Assassin🔪",
+           "Sniper🔫",
+           "Bishop✨",
+           "High wizard🔮",
+           "Monk🐒",
+           "🎒BACKING"
+}, nil, "The skill of each class.👥")
+  if ZI == nil then
+  else
+    if ZI [1] == true then
+      ZI1()
+    end
+    if ZI [2] == true then
+     ZI2()
+    end
+    if ZI [3] == true then
+     ZI3()
+    end
+    if ZI [4] == true then
+     ZI4()
+    end
+   if ZI [5] == true then
+      ZI5()
+    end
+    if ZI [6] == true then
+      HOME()
+    end
+  end
+end
+
+function ZI1() -- ข้อหัว1
+A = gg.choice({"🔪Backstab", "💃Phantom Step","🎒BACKING"}, nil, "Menu Skill😇\nAssassin🔪")
+if A == 1 then ASS1() end
+if A == 2 then ASS2() end
+if A == 3 then FAR() end 
+end
+
+function ASS1() -- Backstab
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("7047;2;100;7:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("7", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("30", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast('Success') 
+A = gg.alert("🔪Backstab Success💯", "Next", nil, "Exit")
+if A == 1 then ZI1() end
+end 
+
+function ASS2() -- Phantom Step
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("7413;1;120;0;12:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("28", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast('Success') 
+A = gg.alert("💃Phantom Step Success💯", "Next", nil, "Exit")
+if A == 1 then ZI1() end
+end
+
+function ZI2()
+A = gg.choice({"🔥ᴄʀᴏss ғɪʀᴇ", "🌀 ᴀʀᴇᴀ ʀᴀɪɴ","🎒BACKING"}, nil, "Menu Skill😇\nSniper🔫")
+if A == 1 then SN1() end
+if A == 2 then SN2() end
+if A == 3 then FAR() end 
+end
+
+function SN1() -- Cross Fire 
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7083;0;12:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("28", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Success")
+A = gg.alert("🔥ᴄʀᴏss ғɪʀᴇ sᴜssᴄᴇs💯", "ɴᴇxᴛ", nil, "ᴇxɪᴛ")
+if A == 1 then ZI2() end
+end
+
+function SN2() -- Area Rain
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7082;0;12:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("28", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Success")
+A = gg.alert("🌀 ᴀʀᴇᴀ ʀᴀɪɴ sᴜssᴄᴇs💯", "ɴᴇxᴛ", nil, "ᴇxɪᴛ")
+if A == 1 then ZI2() end
+end
+ 
+function ZI3()
+A = gg.choice({"🌟 ɴᴇᴍᴇsɪs", "💗 ʜᴇᴀʟ","🎒BACKING"}, nil, "Menu Skill😇\n")
+if A == 1 then BH1() end
+if A == 2 then BH2() end
+if A == 3 then FAR() end 
+end
+
+function BH1() -- Nemesis
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("5007;5;12:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.getResults(100,nil,nil,nil,nil,nil,nil,nil,nil)
+  gg.editAll("28", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Success")
+A = gg.alert("🌟 ɴᴇᴍᴇsɪs sᴜssᴄᴇs💯", "ɴᴇxᴛ", nil, "ᴇxɪᴛ")
+if A == 1 then ZI3() end
+end
+
+function BH2() -- Heal
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("5002;1;120;0;12:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("28", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast('Success') 
+A = gg.alert("💗 ʜᴇᴀʟ sᴜssᴄᴇs💯", "ɴᴇxᴛ", nil, "ᴇxɪᴛ")
+if A == 1 then ZI3() end
+end 
+
+function ZI4() -- High Wizard
+A = gg.choice({"👋 ʙᴀɴᴅᴇʀsɴᴀᴛᴄʜ", "🌟 ᴢᴇʀᴏ ʀᴀʏ","🎒BACKING"}, nil, "Menu Skill😇\n")
+if A == 1 then SNN1() end
+if A == 2 then SNN2() end
+if A == 3 then FAR() end 
+end
+
+function SNN1() -- BN
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7345;1;400;7;16:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("16", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("27", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Success")
+A = gg.alert("👋 ʙᴀɴᴅᴇʀsɴᴀᴛᴄʜ sᴜssᴄᴇs💯", "ɴᴇxᴛ", nil, "ᴇxɪᴛ")
+if A == 1 then ZI4() end
+end
+
+function SNN2() -- ZR
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7345;1;884;7;2:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("2", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("27", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Success")
+A = gg.alert("🌟 ᴢᴇʀᴏ ʀᴀʏ sᴜssᴄᴇs💯", "ɴᴇxᴛ", nil, "ᴇxɪᴛ")
+if A == 1 then ZI4() end
+end
+
+function LOOP()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("41;41;180:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("180", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-1", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast('Success') 
+end
+
+function ZI5() ---อาชีพม้อง,พรต
+A = gg.choice({"🍘Geo-breakers","🎒BACKING"}, nil, "Menu Skill😇\nMonk🐒")
+if A == 1 then GB() end
+if A == 2 then FAR() end
+end
+
+-------------------------------------------------------------------------
+
+--underMap--
+function DOWN()
+DO = gg.choice({" Open ","🎒BACKING"},nil," 👟This function can only\n Be used per map")
+if DO == 1 then DN() end
+if DO == 2 then MN2() end
+end
+
+function DN()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('Success')
+end
+
+
+-------------------  C o m p o s i t i o n  -------------------
+
+---เปิดก่อน---
+function OPEN()
+A = gg.choice({"Yes","Done","🎒BACKING"},nil,"\n▄▀█ █░░ █░░   █ █▄░█\n█▀█ █▄▄ █▄▄   █ █░▀█\n\nAre you on the character selection page ?\nPress done  for the next  pages📊")
+if A == 1 then TWO() end
+--if A == 2 then HOME() gg.sleep(500) gg.processKill() end
+if A == 2 then MN2()end
+if A == 3 then HOME()end
+end
+
+--2000--
+function TWO()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("2000", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+local w = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(w) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "2000"
+		v.freeze = true
+	end
+end
+gg.addListItems(w)
+gg.toast("Success⛅")
+gg.clearResults()
+end
+
+
+-------------------  x y z  -------------------
+
+
+function xyz()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("63.0;13.60000038147;156.0::9", gg.TYPE_FLOAT)
+gg.refineNumber("63.0~156.0", gg.TYPE_FLOAT)
+local p = gg.getResults(100,nil,nil,nil,63.0,63.0,gg.TYPE_FLOAT)
+gg.editAll("60", gg.TYPE_FLOAT)
+local o = gg.getResults(100,nil,nil,nil,156.0,156.0,gg.TYPE_FLOAT)
+gg.editAll("60",gg.TYPE_FLOAT)
+gg.clearResults()
+end
+
+function xyz09() -------- 09-11 BOSS SU ---------
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("79;4.90000009537;84:9", gg.TYPE_FLOAT) 
+gg.refineNumber("79.0~84.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,79.0,79.0,gg.TYPE_FLOAT)
+gg.editAll("68", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,84.0,84.0,gg.TYPE_FLOAT)
+gg.editAll("15",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz10()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("85.0;3.79999995232;161:9", gg.TYPE_FLOAT) 
+gg.refineNumber("85.0~161.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,85.0,85.0,gg.TYPE_FLOAT)
+gg.editAll("85", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,161.0,161.0,gg.TYPE_FLOAT)
+gg.editAll("175",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz11()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("67.0;4.0999994278;27.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("67.0~27.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,67.0,67.0,gg.TYPE_FLOAT)
+gg.editAll("89",gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,27.0,27.0,gg.TYPE_FLOAT)
+gg.editAll("82",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyzrd()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("80.0;2.10000014305;58.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("58.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,80.0,80.0,gg.TYPE_FLOAT)
+gg.editAll("111", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,58.0,58.0,gg.TYPE_FLOAT)
+gg.editAll("111",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz3()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("128.0;6.09999990463;144.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("144.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,128.0,128.0,gg.TYPE_FLOAT)
+gg.editAll("127", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,144.0,144.0,gg.TYPE_FLOAT)
+gg.editAll("127",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz14()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("56.0;0.30000001192;18.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("56.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,56.0,56.0,gg.TYPE_FLOAT)
+gg.editAll("182", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,18.0,18.0,gg.TYPE_FLOAT)
+gg.editAll("183",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz15()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("182.0;0.30000001192;18.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("18.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,56.0,56.0,gg.TYPE_FLOAT)
+gg.editAll("182", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,18.0,18.0,gg.TYPE_FLOAT)
+gg.editAll("183",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz1()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("79.0;0.30000001192;84.0::9", gg.TYPE_AUTO)
+gg.refineNumber("79", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,79.0,79.0,gg.TYPE_FLOAT)
+gg.editAll("114", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,84.0,84.0,gg.TYPE_FLOAT)
+gg.editAll("114",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+
+-------------------  T e x t  -------------------
+
+function zxc() ------- ข้อความ
+gg.setVisible(false)
+gg.alert("🌴ᴇɴᴛᴇʀ ᴛʜᴇ ɪsʟᴀɴᴅ ᴀɴᴅ ᴄᴏᴍᴇ ᴏᴜᴛ ᴀɢᴀɪɴ.\nᴏɴʟɪɴᴇ ᴠᴇʀsɪᴏɴ💰")
+end
+
+function text() ------- ข้อความ
+gg.setVisible(false)
+gg.alert("🎄ᴘʀᴇss ᴛᴏ ᴛᴀʟᴋ ᴛᴏ sᴀɴᴛᴀ🎅\nᴏɴʟɪɴᴇ ᴠᴇʀsɪᴏɴ💰")
+end
+
+function text1() ------- ข้อความ
+gg.setVisible(false)
+gg.alert("Use a through the map🗿\nTo jump to find the boss🐑\nOnline version💰")
+end
+
+
+-------------------  N P C  -------------------
+
+ function LLL1() -- npc 
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("128;1;3;4::13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("9", gg.TYPE_DWORD)
+  gg.clearResults()
+end
+
+function RD1() -- npc 
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("128;2::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("2", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("5", gg.TYPE_DWORD)
+  gg.clearResults()
+end
+
+
+-------------------  E X I T  -------------------
+
+function EXIT()
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠈⠉⠉⠉⠉⠒⠀⠀⠤⣀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠁⠀⠀⠀⠀⠀⠀⢀⣄⠀⠀⠀⠀⠑⡄⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠰⠿⠿⠿⠣⣶⣿⡏⣶⣿⣿⠷⠶⠆⠀⠀⠘⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠠⠴⡅⠀⠀⠠⢶⣿⣿⣷⡄⣀⡀⡀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀\n⠀⣰⡶⣦⠀⠀⠀⡰⠀⠀⠸⠟⢸⣿⣿⣷⡆⠢⣉⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n⠀⢹⣧⣿⣇⠀⠀⡇⠀⢠⣷⣲⣺⣿⣿⣇⠤⣤⣿⣿⠀⢸⠀⣤⣶⠦⠀⠀⠀⠀\n⠀⠀⠙⢿⣿⣦⡀⢇⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⡜⣾⣿⡃⠇⢀⣤⡀⠀\n⠀⠀⠀⠀⠙⢿⣿⣮⡆⠀⠙⠿⣿⣿⣾⣿⡿⡿⠋⢀⠞⢀⣿⣿⣿⣿⣿⡟⠁⠀\n⠀⠀⠀⠀⠀⠀⠛⢿⠇⣶⣤⣄⢀⣰⣷⣶⣿⠁⡰⢃⣴⣿⡿⢋⠏⠉⠁⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠠⢾⣿⣿⣿⣞⠿⣿⣿⢿⢸⣷⣌⠛⠋⠀⠘⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠙⣿⣿⣿⣶⣶⣿⣯⣿⣿⣿⣆⠀⠇⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣯⡙⢿⣿⣿⠟⡁⠰⡀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⡟⠈⢩⣥⣾⣷⠐⡌⠙⠃⠀\n[Bye Bye🙋]\nVersion 9.5💌")
+  gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end
+while true do
+  if gg.isVisible(true) then
+    PUBGMH = 1
+    gg.setVisible(false)
+  end
+  if PUBGMH == 1 then
+    HOME()
+  end
+end

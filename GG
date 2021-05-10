@@ -1,3 +1,0 @@
-gg.setVisible(false)
-gg.alert("️Hello world 🙋")
-gg.sleep(100)

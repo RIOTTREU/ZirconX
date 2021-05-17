@@ -1,0 +1,2544 @@
+PASSWORD = gg.prompt({"🍩『ใส่รหัสผ่าน By.ZirconX』🍫" }, {}, {})
+ if not PASSWORD then
+  print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠈⠉⠉⠉⠉⠒⠀⠀⠤⣀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠁⠀⠀⠀⠀⠀⠀⢀⣄⠀⠀⠀⠀⠑⡄⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠰⠿⠿⠿⠣⣶⣿⡏⣶⣿⣿⠷⠶⠆⠀⠀⠘⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠠⠴⡅⠀⠀⠠⢶⣿⣿⣷⡄⣀⡀⡀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀\n⠀⣰⡶⣦⠀⠀⠀⡰⠀⠀⠸⠟⢸⣿⣿⣷⡆⠢⣉⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n⠀⢹⣧⣿⣇⠀⠀⡇⠀⢠⣷⣲⣺⣿⣿⣇⠤⣤⣿⣿⠀⢸⠀⣤⣶⠦⠀⠀⠀⠀\n⠀⠀⠙⢿⣿⣦⡀⢇⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⡜⣾⣿⡃⠇⢀⣤⡀⠀\n⠀⠀⠀⠀⠙⢿⣿⣮⡆⠀⠙⠿⣿⣿⣾⣿⡿⡿⠋⢀⠞⢀⣿⣿⣿⣿⣿⡟⠁⠀\n⠀⠀⠀⠀⠀⠀⠛⢿⠇⣶⣤⣄⢀⣰⣷⣶⣿⠁⡰⢃⣴⣿⡿⢋⠏⠉⠁⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠠⢾⣿⣿⣿⣞⠿⣿⣿⢿⢸⣷⣌⠛⠋⠀⠘⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠙⣿⣿⣿⣶⣶⣿⣯⣿⣿⣿⣆⠀⠇⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣯⡙⢿⣿⣿⠟⡁⠰⡀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⡟⠈⢩⣥⣾⣷⠐⡌⠙⠃⠀\n[บาย บ่าย🙋]\nเวอร์ชั่นออนไลน์💌")
+  gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end
+if PASSWORD [1] == "1112" then
+--  gg.toast("『ยินดีต้อนรับสู่...』")
+else
+gg.toast("รหัสผ่านผิด☕")
+gg.sleep(600)
+gg.alert("\n📋ซื้อรหัสผ่านก่อนเข้าสคริปต์☕\n🔥สามารถติดต่อได้ที่เฟส🔥\n🌜FB:Sahaphum thabthawee🌛")
+  print('\n\n\n(ﾟДﾟ)          เฮ้? ซื้อสคริปต์กูด้วยไอเวร') 
+gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end
+
+
+os.remove("src/main/java/com/google/errorprone/annotations")
+
+os.remove("src/main/java/com/google/errorprone/annotations")
+
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+
+os.remove("third_party.java_src.error_prone.project.annotations.google.internal")
+
+
+------------------------------ เมนู ----------------------------------------
+gg.setVisible(false)
+gg.sleep(350)
+gg.toast("\n██▓▒­░ ►▬ ยินดีต้อนรับ ▬◄ ░▒▓██")
+gg.sleep(600)
+gg.setVisible(true)
+PUBGMH = -1
+function HOME() --Home Menu
+MENU = gg.choice({
+           "📂 แผนที่ของกูเกิล 🌎",
+           "📂 องค์ประกอบต่างๆ 🚶",
+           "📂 แก้แผนที่สีดำ 😎",
+           "❎ อ อ ก ❎"
+}, nil, "『สคริปต์นี้ทำขึ้นเพื่อให้คนในกิล CF-Life™』🍉\n『ถ้าหากพบเห็นแจกสคริปต์จะปิดอัตโนมัติ』🐼\n")
+    if MENU == nil then
+  else
+    if MENU == 1 then
+      MN1()
+    end
+    if MENU == 2 then
+     OPEN()
+    end
+   if MENU == 3 then
+     MN3()
+    end
+    if MENU == 4 then
+      EXIT()
+    end
+  end
+  PUBGMH = -1
+end
+----------------------------------------------------------------------------
+-------------------  G o o g l e m a p  -----------------------------
+function MN1()
+WC = gg.multiChoice({
+           "ยูเนี่ยนแซม 🍫",
+           "อีกโลกหนึ่ง 🌉",
+           "โดอิน (ง่าย) 🐆",
+           "บอสที่ไปทางเดียวกัน 🗽",
+           "แรร์ดอป 🎋",
+           "ม้าน้ำแข็ง 🐑",
+           "นาวาแห่งสายลม 🚢",
+           "คิจิมู (มินิบอส) 🌲",
+           "ใต้ดิน 120 🌆",
+           "ซิลเวอร์เรด 400 (กลุ่ม) 🎭",
+           "🌊ก ลั บ"
+}, nil, "\n⠀⠀⠀⣿⣿⡆⠀⠀⢸⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⢸⣿⡇  ⠀⣾⣿⡆⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⢰⣿⡆⠀⣾⣿⡆⠀⣾⣷ ⣿⣿⡇  ⠀⣿⣿⡇⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⠘⣿⣿⣤⣿⣿⣿⣤⣿⡇⢻⣿⡇⠀⠀⣿⣿⡇⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⡿⠀⢹⣿⣿⣿⣿⣿⣿⣿⠁⢸⣿⣇⠀⢀⣿⣿⠇⠀\n⠀⠀⠀⠙⢿⣷⣶⣶⡿⠁⠀⠈⣿⣿⠟⠀⣿⣿⠇⠀⠈⠻⣿⣶⣾⡿⠋⠀⠀")
+  if WC == nil then
+  else
+    if WC [1] == true then
+      WC1()
+    end
+    if WC [2] == true then
+     WC2()
+    end
+    if WC [3] == true then
+     WC3()
+    end
+    if WC [4] == true then
+     WC4()
+    end
+    if WC [5] == true then
+      WC5()
+    end
+    if WC [6] == true then
+      WC6()
+    end
+    if WC [7] == true then
+      WC7()
+    end
+    if WC [8] == true then
+      WC8()
+    end
+    if WC [9] == true then
+      WC9()
+    end
+    if WC [10] == true then
+      WC10()
+    end
+    if WC [11] == true then
+      HOME()
+    end
+  end
+  PUBGMH = -1
+end
+---------------------------------------------------------------------------
+
+------------------------------ บอส ----------------------------------------
+function WC1()  ----- ข้อหัว1 บอส uni Sam Harris-- ------
+  A = gg.choice({"วาป", "🌊ก ลั บ"}, nil, "⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปโซเฟียก่อน)\n╔╦╦\n╠╬╬╬╣\n╠╬╬╬╣ I 🍫\n╠╬╬╬╣ ช็อกโกแลต\n╚╩╩╩╝")
+if A == 1 then LLL2() gg.sleep(1000) xyz3() LLL3() gg.sleep(2600) xyz14() gg.sleep(700) xyz15() end
+if A == 2 then MN1() end
+HOMEDM=-1 
+end
+
+function LLL2() -- แมพ
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = false
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 4492
+			p[i].freeze = true
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 4492
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+end
+
+function LLL3() --เอาแมพมืดออก
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = false
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 4492
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("20008" , gg.TYPE_DWORD)
+gg.refineNumber("20008", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 4492
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+end 
+
+--gg.toast('⠀⠀⠀⠀⣠⣶⡾⠏⠉⠙⠳⢦⡀⠀⠀⠀⢠⠞⠉⠙⠲⡀⠀\n⠀⠀⠀⣴⠿⠏⠀⠀⠀⠀⠀⠀⢳⡀⠀⡏⠀⠀⠀⠀⠀⢷\n⠀⠀⢠⣟⣋⡀⢀⣀⣀⡀⠀⣀⡀⣧⠀⢸⠀⠀⠀⠀⠀ ⡇\n⠀⠀⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲⣿⠀⣸⠀⠀OK⠀ ⡇\n⠀⠀⣟⣿⡭⠀⠀⠀⠀⠀⢱⠀⠀⣿⠀⢹⠀⠀⠀⠀⠀ ⡇\n⠀⠀⠙⢿⣯⠄⠀⠀⠀⢀⡀⠀⠀⡿⠀⠀⡇⠀⠀⠀⠀⡼\n⠀⠀⠀⠀⠹⣶⠆⠀⠀⠀⠀⠀⡴⠃⠀⠀⠘⠤⣄⣠⠞⠀\n⠀⠀⠀⠀⠀⢸⣷⡦⢤⡤⢤⣞⣁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⢀⣤⣴⣿⣏⠁⠀⠀⠸⣏⢯⣷⣖⣦⡀⠀⠀⠀⠀⠀⠀\n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿⠀⠀⠀⠀⠀⠀\n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏⠀⠀⠀⣄⢸⠀⠀⠀⠀⠀⠀\n⣿⣿⣧⣀⣿………⣀⣰⣏⣘⣆⣀') 
+--end
+ 
+function WC2() --- ข้อหัว2
+A = gg.choice({"หอคอย แฟลช⚡","หอคอย เงา👤","🌊ก ลั บ"}, nil, "⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปโลโคโคก่อน)\nกดสถานที่ที่ต้องการ🏰")
+if A == 1 then L1() gg.sleep(2300) xyz1() gg.sleep(400) REMOVE() zxc() end
+if A == 2 then L2() gg.sleep(2300) xyz1() gg.sleep(400) REMOVE() zxc() end
+if A == 3 then MN1()end
+HOMEDM=-1
+end 
+
+function L1() -- แสง
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 95500
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 95501
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end 
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function L2() -- มืด
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 95600
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 95601
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function L3() -- ๆลๆ
+-- ยัง
+end
+ 
+function WC3() --- หัวข้อ3 บอสโดอิน
+A = gg.choice({"โดอิน (ง่าย) 🐆","🌊ก ลั บ"}, nil, "⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปไบลูนก่อน)")
+if A == 1 then L() gg.sleep(2500) xyz() end
+if A == 2 then MN1()end
+HOMEDM=-1
+end 
+
+--- (วิธีแก้ ให้เปลื่ยน zxc0 เป็น L) 
+
+-- BOSS 150
+function L()
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 76560
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 76590
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function WC4() 
+A = gg.choice({"แมพอีเว้นท์ 🍆" ,"เมโดน่า 400 🐍","ประธานเมซาลูนา 350 👧","รูดอล์ฟ 🐏","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปโลโคโคก่อน)")
+if A == 1 then EA() gg.sleep(2500) xyz09() gg.sleep(2500) xyz10() gg.sleep(2500) WC4() end
+if A == 2 then M1() end
+if A == 3 then PD350() end
+if A == 4 then RU() end
+--if A == 6 then REMOVE() MN1()end
+if A == 5 then MN1()end
+HOMEDM=-1
+end
+
+function EA() ---แมพ
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 76700
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function M1() ----- เมโดน่า400
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 77162
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 77192
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function M2() ---- ประมานเมซา350
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 104760
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.." วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 104797
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function RU() ----กวางเรนเดียร์
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 75960
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 75990
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function SM() -----กวางเรนเดียร์ที่โหดมากๆ
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 111760
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 111790
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function WC5()
+A = gg.choice({"แรร์ดอป 🎋","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปไบลูนก่อน)🎄")
+if A == 1 then RD() gg.sleep(2300) RD1() xyzrd() REMOVE() text()end
+if A == 2 then MN1()end
+HOMEDM=-1
+end
+
+function RD() -- ʀᴀʀᴇ ᴅʀᴏᴘ
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 70300
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.."วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 70300
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function WC6()
+A = gg.choice({"วาป","วน (เริ่ม)","วน (ยกเลิก)","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปโลโคโคก่อน)")
+if A == 1 then EA() gg.sleep(2600) xyz09() gg.sleep(2500) xyz10() gg.sleep(2500) SM() gg.sleep(2500) text1() end
+if A == 2 then SML() end
+if A == 3 then SMUL() end
+if A == 4 then MN1() end
+HOMEDM=-1
+end
+
+function WC7()
+A = gg.choice({"นาวาแห่งสายลม (ธรรมดา)","นาวาแห่งสายลม (บอส)","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปไบลูนก่อน)")
+if A == 1 then nawa() end
+if A == 2 then nawabos() end
+if A == 3 then MN1() end
+HOMEDM=-1
+end
+
+function nawa() ----นาวา
+gg.clearResults()
+r = {"-100","220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 80000
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+		gg.toast("เสร็จสิ้น⛅")
+end
+
+function nawabos() ----นาวาบอส
+gg.clearResults()
+r = {"-100","220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 80010
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+		gg.toast("เสร็จสิ้น⛅")
+end
+
+function WC8()
+A = gg.choice({"วาป","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปโลโคโคก่อน)")
+if A == 1 then mini() end
+if A == 2 then MN1() end
+HOMEDM=-1
+end
+
+function mini()
+gg.clearResults()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001",gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+r = {"-104"}
+for i = 1,#r do --hack map event
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 0
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- set xyz
+r = {"-51"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20000
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- set xyz
+r = {"-68"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20736
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- warp map
+r = {"-100","220"}
+for i = 1,#r do
+  p = {}
+	p[i] = {}
+	p[i].address = q[1].address + r[i]
+	p[i].flags = 4 
+	p[i].value = 79402
+	p[i].freeze = false
+	gg.setValues(p)
+end
+-- set xyz
+r = {"-51"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20000
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.removeListItems(p) 
+end
+
+-- set xyz
+r = {"-68"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20736
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.removeListItems(p) 
+end
+end
+
+function WC9()
+A = gg.choice({"วาป" ,"🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปโลโคโคก่อน)")
+if A == 1 then M120() gg.sleep(2700) NPC120() end
+if A == 2 then MN1() end
+HM=-1
+end
+
+function M120()
+gg.clearResults()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001",gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+r = {"-104"}
+for i = 1,#r do --hack map event
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 0
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- set xyz
+r = {"-88"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20000
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- set xyz
+r = {"-84"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20736
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- warp map
+r = {"-100","220"}
+for i = 1,#r do
+  p = {}
+	p[i] = {}
+	p[i].address = q[1].address + r[i]
+	p[i].flags = 4 
+	p[i].value = 92301
+	p[i].freeze = false
+	gg.setValues(p)
+end
+-- set xyz
+r = {"-88"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20000
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.removeListItems(p) 
+end
+
+-- set xyz
+r = {"-84"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20736
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.removeListItems(p) 
+end
+end
+
+
+
+function REE() ----รีแมพประธาน
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 104700
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+
+
+function PD350() ---- ประธานเมซา Lv.350
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 104760
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.." วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 104797
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+
+
+function REMOVE()
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.removeListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 76700
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.removeListItems(p) 
+	end	
+		gg.clearResults()
+gg.toast("เคลียร์แล้ว")
+end
+
+function WC10()
+A = gg.choice({"วาป","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปไบลูนก่อน)")
+if A == 1 then SVG400() end
+if A == 2 then MN1() end
+HOMEDM=-1
+end
+
+
+
+function SVG400()  ---- เรด400
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 78297
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+
+function M390()
+gg.clearResults()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001",gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+r = {"-104"}
+for i = 1,#r do --hack map event
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 0
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- set xyz
+r = {"-88"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20000
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- set xyz
+r = {"-84"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20736
+  p[i].freeze = true
+  gg.setValues(p)
+  gg.addListItems(p) 
+end
+
+-- warp map
+r = {"-100","220"}
+for i = 1,#r do
+  p = {}
+	p[i] = {}
+	p[i].address = q[1].address + r[i]
+	p[i].flags = 4 
+	p[i].value = 201400
+	p[i].freeze = false
+	gg.setValues(p)
+end
+-- set xyz
+r = {"-88"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20000
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.removeListItems(p) 
+end
+
+-- set xyz
+r = {"-84"}
+for i = 1,#r do
+  p = {}
+  p[i] = {}
+  p[i].address = q[1].address + r[i]
+  p[i].flags = 4
+  p[i].value = 20736
+  p[i].freeze = false
+  gg.setValues(p)
+  gg.removeListItems(p) 
+end
+end
+------------------------------------------------------------------------------
+
+
+-------------------  C o m p o s i t i o n  -------------------
+
+---เปิดก่อน---
+function OPEN()
+A = gg.choice({"ใช่","เสร็จสิ้น","🌊ก ลั บ"},nil,"\n▄▀█ █░░ █░░   █ █▄░█\n█▀█ █▄▄ █▄▄   █ █░▀█\n\nคุณอยู่ในหน้าเลือกตัวละครหรือไม่?\nกดเสร็จสิ้นสำหรับหน้าถัดไป📊")
+if A == 1 then TWO() end
+--if A == 2 then HOME() gg.sleep(500) gg.processKill() end
+if A == 2 then MN2()end
+if A == 3 then HOME()end
+end
+
+--2000--
+function TWO()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("2000", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+local w = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(w) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "2000"
+		v.freeze = true
+	end
+end
+gg.addListItems(w)
+gg.toast("เสร็จสิ้น⛅")
+gg.clearResults()
+end
+------------------------------------------------------------------------------
+-------------------  M e n u L o b b y  -------------------
+
+function MN2() --📂 Menu Lobby
+MG = gg.multiChoice({"ลบดีเล ♻" ,"ตายเกิด 👻" ,"ลบดีเลการโจมตี 🔪" ,"ทะลุแผนที่ 🗿" ,"สกิลไกล 🎿" ,"ดำดิน 🚄","เคลื่อนที่ 🏃","🌊ก ลั บ"},nil,"⚠️สคริปต์นี้สร้างขึ้นสำหรับ VMOS เวอร์ชัน 5.1⚠️")
+  if MG == nil then
+  else 
+    if MG [1] == true then
+      DD()
+    end
+    if MG [2] == true then
+     TFAR1()
+    end
+    if MG [3] == true then
+     ATK()
+    end
+    if MG [4] == true then
+     MAP()
+    end
+    if MG [5] == true then
+      FAR()
+    end
+    if MG [6] == true then 
+      DOWN()
+    end
+    if MG [7] == true then
+      RUN()
+      end
+    if MG [8] == true then
+      HOME()
+    end
+    end
+  PUBGMH = -1
+end
+
+--Delay--
+function DD()
+B = gg.choice({"เปิด" ,"ปิด","🌊ก ลั บ"},nil,"ลบดีเล,ออโต้สคิป♻")
+if B == 1 then D1() AUTO1() end
+if B == 2 then D2() end
+if B == 3 then MN2() end
+end
+
+function AUTO1() 
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11,001;2::305", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("2", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "1"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.setVisible(true)
+gg.toast('เสร็จสิ้น⛅')
+end
+
+function D1()
+gg.searchNumber("2000;0;0;0;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+gg.toast("เปิด")
+end
+
+function D2()
+gg.searchNumber("2000;0;0;0;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(6, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = false
+	end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+gg.toast("ปิด")
+end
+
+
+function RUN() ------- 4 × 100 
+A = gg.prompt({"เลือกระดับความเร็วในการเคลื่อนที่ 1 ~ 1000 🏃"}, nil, {"ตัวเลข"})
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll(A[1], gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function ATK() ------โจมตี
+Q = gg.choice({"ตีเร็ว [Speed ATK]" ,"ตีรั่ว [GOD ATK]" ,"แขนไว [MOVABLE]","ปิดทั้งหมด","🌊ก ลั บ"},nil," 🚀ฟังก์ชั่นการโจมตี")
+if Q == 1 then A1() end
+if Q == 2 then A1() gg.sleep(500) A2() end
+if Q == 3 then A3()end 
+if Q == 4 then A4() end
+if Q == 5 then MN2() end
+end
+
+function A1()
+gg.clearResults()
+r = {"4"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function A2()
+gg.clearResults()
+r = {"-24"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = true
+			p[i].freezeType = gg.FREEZE_IN_RANGE
+			p[i].freezeFrom = -250
+			p[i].freezeTo = 1
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast('⠀⠀⠀⠀⣠⣶⡾⠏⠉⠙⠳⢦⡀⠀⠀⠀⢠⠞⠉⠙⠲⡀⠀\n⠀⠀⠀⣴⠿⠏⠀⠀⠀⠀⠀⠀⢳⡀⠀⡏⠀⠀⠀⠀⠀⢷\n⠀⠀⢠⣟⣋⡀⢀⣀⣀⡀⠀⣀⡀⣧⠀⢸⠀⠀⠀⠀⠀ ⡇\n⠀⠀⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲⣿⠀⣸⠀⠀OK⠀ ⡇\n⠀⠀⣟⣿⡭⠀⠀⠀⠀⠀⢱⠀⠀⣿⠀⢹⠀⠀⠀⠀⠀ ⡇\n⠀⠀⠙⢿⣯⠄⠀⠀⠀⢀⡀⠀⠀⡿⠀⠀⡇⠀⠀⠀⠀⡼\n⠀⠀⠀⠀⠹⣶⠆⠀⠀⠀⠀⠀⡴⠃⠀⠀⠘⠤⣄⣠⠞⠀\n⠀⠀⠀⠀⠀⢸⣷⡦⢤⡤⢤⣞⣁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⢀⣤⣴⣿⣏⠁⠀⠀⠸⣏⢯⣷⣖⣦⡀⠀⠀⠀⠀⠀⠀\n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿⠀⠀⠀⠀⠀⠀\n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏⠀⠀⠀⣄⢸⠀⠀⠀⠀⠀⠀\n⣿⣿⣧⣀⣿………⣀⣰⣏⣘⣆⣀') 
+end
+
+function A3()
+gg.clearResults()
+r = {"4"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_FLOAT
+			p[i].value = 0
+			p[i].freeze = true
+			p[i].freezeType = gg.FREEZE_MAY_INCREASE
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("เสร็จสิ้น⛅")
+end
+
+
+function A4()
+gg.clearResults()
+r = {"4","-24"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = false 
+			p[i].freezeType = gg.FREEZE_IN_RANGE
+			p[i].freezeFrom = -250
+			p[i].freezeTo = 1
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("ปิด")
+end
+
+--through--MAP--
+function MAP()
+M = gg.choice({"เปิด" ,"ปิด","🌊ก ลั บ"},nil," 🐾ฟังก์ชั่นทะลุแผนที่")
+if M == 1 then M11() end
+if M == 2 then M22() end
+if M == 3 then MN2() end
+end
+
+function M11()
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 1
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+		gg.clearResults()
+gg.clearResults()	
+gg.toast("เปิด")
+end
+
+function M22()
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+	
+gg.clearResults()
+r = {"96"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("2000;1~1000F::65" , gg.TYPE_DWORD)
+gg.refineNumber("1~1000", gg.TYPE_FLOAT)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = gg.TYPE_DWORD
+			p[i].value = 0
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()	
+gg.toast("ปิด")
+end
+
+function TFAR1()
+SK = gg.choice({"ล็อคแบบวนซ้ำ 🔁" ,"ตายเกิด 👻 (อัตโนมัติ)"  ,"🌊ก ลั บ"},nil,"🙅ใช้ฟาร์มเซาโร 90-450")
+if SK == 1 then LR() gg.sleep(500) LR1() end
+if SK == 2 then LOOP() end
+if SK == 3 then MN2() end
+end
+
+function LR()
+gg.clearResults()
+r = {"304"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = true
+			gg.setValues(p)
+			gg.addListItems(p) 
+	end	
+		gg.clearResults()
+		gg.toast("เสร็จสิ้น⛅")
+end
+
+function LR1()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("41;41;180:21",gg.TYPE_DWORD)
+gg.refineNumber("180",gg.TYPE_DWORD)
+t = gg.getResults(1)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "-1"
+		v.freeze = true
+	end
+	end
+gg.addListItems(t) 
+t = nil
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+-------------------  S K L L S (N E W)  -------------------
+
+function FAR() 
+ZI = gg.multiChoice({
+           "นักฆ่า 🔪",
+           "สไนเปอร์ 🔫",
+           "พระ ✨",
+           "พ่อมดขั้นสูง 🔮",
+           "พระลุย 🐒",
+           "🌊ก ลั บ"
+}, nil, "ทักษะของแต่ละคลาส 👥")
+  if ZI == nil then
+  else
+    if ZI [1] == true then
+      ZI1()
+    end
+    if ZI [2] == true then
+     ZI2()
+    end
+    if ZI [3] == true then
+     ZI3()
+    end
+    if ZI [4] == true then
+     ZI4()
+    end
+   if ZI [5] == true then
+      ZI5()
+    end
+    if ZI [6] == true then
+      MN2()
+    end
+  end
+  PUBGMH = -1
+end
+
+function ZI1() -- ข้อหัว1
+A = gg.choice({"🔪Backstab", "💃Phantom Step","🌊ก ลั บ"}, nil, "ทักษะเมนู😇\nนักฆ่า 🔪")
+if A == 1 then ASS1() end
+if A == 2 then ASS2() end
+if A == 3 then FAR() end 
+end
+
+function ASS1() -- Backstab
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("7047;2;100;7:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("7", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("30", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast('เสร็จสิ้น⛅') 
+A = gg.alert("🔪Backstab เสร็จสิ้น⛅", "ต่อ", nil, "ออก")
+if A == 1 then ZI1() end
+end 
+
+function ASS2() -- Phantom Step
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("7413;1;120;0;12:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("28", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast('เสร็จสิ้น⛅') 
+A = gg.alert("💃Phantom Step เสร็จสิ้น⛅", "ต่อ", nil, "ออก")
+if A == 1 then ZI1() end
+end
+
+function ZI2()
+A = gg.choice({"🔥Cross fire", "🌀Area rain","🌊ก ลั บ"}, nil, "ทักษะเมนู😇\nสไนเปอร์ 🔫")
+if A == 1 then SN1() end
+if A == 2 then SN2() end
+if A == 3 then FAR() end 
+end
+
+function SN1() -- Cross Fire 
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7083;0;12:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("28", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+A = gg.alert("🔥Cross fire เสร็จสิ้น⛅", "ต่อ", nil, "ออก")
+if A == 1 then ZI2() end
+end
+
+function SN2() -- Area Rain
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7082;0;12:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("28", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+A = gg.alert("🌀Area rain เสร็จสิ้น⛅", "ต่อ", nil, "ออก")
+if A == 1 then ZI2() end
+end
+ 
+function ZI3()
+A = gg.choice({"🌟Nemesis", "💗Heal","🌊ก ลั บ"}, nil, "ทักษะเมนู😇\nพระ ✨")
+if A == 1 then BH1() end
+if A == 2 then BH2() end
+if A == 3 then FAR() end 
+end
+
+function BH1() -- Nemesis
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("5007;5;12:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.getResults(100,nil,nil,nil,nil,nil,nil,nil,nil)
+  gg.editAll("28", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("เสร็จสิ้น⛅")
+A = gg.alert("🌟Nemesis เสร็จสิ้น⛅", "ต่อ", nil, "ออก")
+if A == 1 then ZI3() end
+end
+
+function BH2() -- Heal
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("5002;1;120;0;12:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("28", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast('เสร็จสิ้น⛅') 
+A = gg.alert("💗Heal เสร็จสิ้น⛅", "ต่อ", nil, "ออก")
+if A == 1 then ZI3() end
+end 
+
+function ZI4() -- High Wizard
+A = gg.choice({"👋Bandersnatch", "🌟Zero ray","🌊ก ลั บ"}, nil, "ทักษะเมนู😇\nพ่อมดขั้นสูง 🔮")
+if A == 1 then SNN1() end
+if A == 2 then SNN2() end
+if A == 3 then FAR() end 
+end
+
+function SNN1() -- BN
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7345;1;400;7;16:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("16", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("27", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+A = gg.alert("👋Bandersnatch เสร็จสิ้น⛅", "ต่อ", nil, "ออก")
+if A == 1 then ZI4() end
+end
+
+function SNN2() -- ZR
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("7345;1;884;7;2:17", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+gg.refineNumber("2", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("27", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+A = gg.alert("🌟Zero ray เสร็จสิ้น⛅", "ต่อ", nil, "ออก")
+if A == 1 then ZI4() end
+end
+
+function LOOP()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("41;41;180:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("180", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-1", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast('เสร็จสิ้น⛅') 
+end
+
+function ZI5() ---อาชีพม้อง,พรต
+A = gg.choice({"🍘Geo-breakers","🌊ก ลั บ"}, nil, "ทักษะเมนู😇\nพระลุย 🐒")
+if A == 1 then GB() end
+if A == 2 then FAR() end
+end
+
+-------------------------------------------------------------------------
+
+--underMap--
+function DOWN()
+DO = gg.choice({"เปิด","🌊ก ลั บ"},nil," 🗻ฟังก์ชันนี้สามารถใช้ได้\nต่อแผนที่เท่านั้น")
+if DO == 1 then DN() end
+if DO == 2 then MN2() end
+end
+
+function DN()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('เสร็จสิ้น⛅')
+end
+------------------------------------------------------------------------------ 
+
+-------------------  x y z  -------------------
+
+
+function xyz()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("63.0;13.60000038147;156.0::9", gg.TYPE_FLOAT)
+gg.refineNumber("63.0~156.0", gg.TYPE_FLOAT)
+local p = gg.getResults(100,nil,nil,nil,63.0,63.0,gg.TYPE_FLOAT)
+gg.editAll("60", gg.TYPE_FLOAT)
+local o = gg.getResults(100,nil,nil,nil,156.0,156.0,gg.TYPE_FLOAT)
+gg.editAll("60",gg.TYPE_FLOAT)
+gg.clearResults()
+end
+
+function xyz09() -------- 09-11 BOSS SU ---------
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("79;4.90000009537;84:9", gg.TYPE_FLOAT) 
+gg.refineNumber("79.0~84.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,79.0,79.0,gg.TYPE_FLOAT)
+gg.editAll("68", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,84.0,84.0,gg.TYPE_FLOAT)
+gg.editAll("15",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz10()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("85.0;3.79999995232;161:9", gg.TYPE_FLOAT) 
+gg.refineNumber("85.0~161.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,85.0,85.0,gg.TYPE_FLOAT)
+gg.editAll("85", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,161.0,161.0,gg.TYPE_FLOAT)
+gg.editAll("175",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz11()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("67.0;4.0999994278;27.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("67.0~27.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,67.0,67.0,gg.TYPE_FLOAT)
+gg.editAll("89",gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,27.0,27.0,gg.TYPE_FLOAT)
+gg.editAll("82",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyzrd()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("80.0;2.10000014305;58.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("58.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,80.0,80.0,gg.TYPE_FLOAT)
+gg.editAll("111", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,58.0,58.0,gg.TYPE_FLOAT)
+gg.editAll("111",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz3()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("128.0;6.09999990463;144.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("128.0~144.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,128.0,128.0,gg.TYPE_FLOAT)
+gg.editAll("219.0", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,144.0,144.0,gg.TYPE_FLOAT)
+gg.editAll("56.0",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz14()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("56.0;0.30000001192;18.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("56.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(1000,nil,nil,nil,56.0,56.0,gg.TYPE_FLOAT)
+gg.editAll("182", gg.TYPE_FLOAT)
+local o1 = gg.getResults(1000,nil,nil,nil,18.0,18.0,gg.TYPE_FLOAT)
+gg.editAll("183",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz15()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("182.0;0.30000001192;18.0:9", gg.TYPE_FLOAT) 
+gg.refineNumber("18.0", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,56.0,56.0,gg.TYPE_FLOAT)
+gg.editAll("182", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,18.0,18.0,gg.TYPE_FLOAT)
+gg.editAll("183",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+function xyz1()
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("79.0;0.30000001192;84.0::9", gg.TYPE_AUTO)
+gg.refineNumber("79", gg.TYPE_FLOAT)
+local p1 = gg.getResults(100,nil,nil,nil,79.0,79.0,gg.TYPE_FLOAT)
+gg.editAll("114", gg.TYPE_FLOAT)
+local o1 = gg.getResults(100,nil,nil,nil,84.0,84.0,gg.TYPE_FLOAT)
+gg.editAll("114",gg.TYPE_FLOAT)
+gg.clearResults()
+end 
+
+
+-------------------  T e x t  -------------------
+
+function zxc() ------- ข้อความ
+gg.setVisible(false)
+gg.alert("🌴เข้าไปในเกาะและออกมาอีกครั้ง")
+end
+
+function text() ------- ข้อความ
+gg.setVisible(false)
+gg.alert("🎄กดพูดคุยกับซานต้า🎅")
+end
+
+function text1() ------- ข้อความ
+gg.setVisible(false)
+gg.alert("ใช้ทะลุแผนที่🗿")
+end
+------------------------------------------------------------------------------
+
+-------------------  N P C  -------------------
+
+ function LLL1() -- npc 
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("128;1;3;4::13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("9", gg.TYPE_DWORD)
+  gg.clearResults()
+end
+
+function RD1() -- npc 
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("128;2::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("2", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("5", gg.TYPE_DWORD)
+  gg.clearResults()
+end
+
+function NPC120() -- npc 
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("128;7;2;8:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("8", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("8", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function NPC391() -- npc 
+  gg.setRanges(gg.REGION_JAVA_HEAP)
+  gg.searchNumber("128;9;4:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("4", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+
+function SML() 
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("128;16;0:9",gg.TYPE_DWORD)
+gg.refineNumber("16",gg.TYPE_DWORD)
+t = gg.getResults(1)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "10"
+		v.freeze = true
+	end
+	end
+gg.addListItems(t) 
+t = nil
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+
+function SMUL() 
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("128;10;0:9",gg.TYPE_DWORD)
+gg.refineNumber("10",gg.TYPE_DWORD)
+t = gg.getResults(1)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "10"
+		v.freeze = false
+	end
+	end
+gg.addListItems(t) 
+t = nil
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
+------------------------------------------------------------------------------
+
+
+function MN3()
+A = gg.choice({"แก้", "🌊ก ลั บ"}, nil, "⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\nแก้หลังจากออกจากแมพอื่นๆ\nที่วาปไปแล้วกลับมาแล้วจอดำ🎈\n(หลังจากกดแก้แล้ว)\nให้วาปอะไรก็ได้เพื่อรีแผนที่อีกครั้ง🎎")
+if A == 1 then UNBACK() end
+if A == 2 then HOME() end
+HOMEDM=-1 
+end
+
+function UNBACK()
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = false
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+end
+
+------------------------------ อ อ ก ----------------------------------------
+function EXIT()
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠈⠉⠉⠉⠉⠒⠀⠀⠤⣀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠁⠀⠀⠀⠀⠀⠀⢀⣄⠀⠀⠀⠀⠑⡄⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠰⠿⠿⠿⠣⣶⣿⡏⣶⣿⣿⠷⠶⠆⠀⠀⠘⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠠⠴⡅⠀⠀⠠⢶⣿⣿⣷⡄⣀⡀⡀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀\n⠀⣰⡶⣦⠀⠀⠀⡰⠀⠀⠸⠟⢸⣿⣿⣷⡆⠢⣉⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n⠀⢹⣧⣿⣇⠀⠀⡇⠀⢠⣷⣲⣺⣿⣿⣇⠤⣤⣿⣿⠀⢸⠀⣤⣶⠦⠀⠀⠀⠀\n⠀⠀⠙⢿⣿⣦⡀⢇⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⡜⣾⣿⡃⠇⢀⣤⡀⠀\n⠀⠀⠀⠀⠙⢿⣿⣮⡆⠀⠙⠿⣿⣿⣾⣿⡿⡿⠋⢀⠞⢀⣿⣿⣿⣿⣿⡟⠁⠀\n⠀⠀⠀⠀⠀⠀⠛⢿⠇⣶⣤⣄⢀⣰⣷⣶⣿⠁⡰⢃⣴⣿⡿⢋⠏⠉⠁⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠠⢾⣿⣿⣿⣞⠿⣿⣿⢿⢸⣷⣌⠛⠋⠀⠘⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠙⣿⣿⣿⣶⣶⣿⣯⣿⣿⣿⣆⠀⠇⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣯⡙⢿⣿⣿⠟⡁⠰⡀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⡟⠈⢩⣥⣾⣷⠐⡌⠙⠃⠀\n[บาย บ่าย🙋]\nเวอร์ชั่นออนไลน์💌")
+  gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end
+while true do
+  if gg.isVisible(true) then
+    PUBGMH = 1
+    gg.setVisible(false)
+  end
+  if PUBGMH == 1 then
+    HOME()
+  end
+end
+------------------------------------------------------------------------------
+
+
+

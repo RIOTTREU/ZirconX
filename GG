@@ -72,6 +72,7 @@ WC = gg.multiChoice({
            "คิจิมู (มินิบอส) 🌲",
            "ใต้ดิน 95,120 🌆",
            "ซิลเวอร์เรด 400 (กลุ่ม) 🎭",
+           "ดาร์ก ซานต้า 🎅",
            "🌊ก ลั บ"
 }, nil, "\n⠀⠀⠀⣿⣿⡆⠀⠀⢸⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⢸⣿⡇  ⠀⣾⣿⡆⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⢰⣿⡆⠀⣾⣿⡆⠀⣾⣷ ⣿⣿⡇  ⠀⣿⣿⡇⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⠘⣿⣿⣤⣿⣿⣿⣤⣿⡇⢻⣿⡇⠀⠀⣿⣿⡇⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⡿⠀⢹⣿⣿⣿⣿⣿⣿⣿⠁⢸⣿⣇⠀⢀⣿⣿⠇⠀\n⠀⠀⠀⠙⢿⣷⣶⣶⡿⠁⠀⠈⣿⣿⠟⠀⣿⣿⠇⠀⠈⠻⣿⣶⣾⡿⠋⠀⠀")
   if WC == nil then
@@ -107,10 +108,13 @@ WC = gg.multiChoice({
       WC10()
     end
     if WC [11] == true then
-      HOME()
+      WC11()
     end
+    if WC [12] == true then
+      HOME()
   end
   PUBGMH = -1
+end
 end
 ---------------------------------------------------------------------------
 
@@ -1816,6 +1820,113 @@ for i = 1,#r do
   gg.removeListItems(p) 
 end
 end
+
+function WC11()
+A = gg.choice({"วาป","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[ห้ามเดิน 🏃]\n(กดใช้วาปโลโคโคก่อน)")
+if A == 1 then DST() end
+if A == 2 then MN1() end
+HOMEDM=-1
+end
+
+function DST() ------ Dark Santa 
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 73060
+			p[i].freeze = true 
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+gg.clearResults()
+for i = 1,4do
+gg.sleep(1000)
+gg.toast(i.." วินาที")
+end
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 73090
+			p[i].freeze = false
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
 ------------------------------------------------------------------------------
 
 
@@ -2559,10 +2670,10 @@ function SMUL()
 gg.setRanges(gg.REGION_JAVA_HEAP)
 gg.searchNumber("128;10;0:9",gg.TYPE_DWORD)
 gg.refineNumber("10",gg.TYPE_DWORD)
-t = gg.getResults(1)
+t = gg.getResults(3)
 for i, v in ipairs(t) do
 	if v.flags == gg.TYPE_DWORD then
-		v.value = "10"
+		v.value = "2"
 		v.freeze = false
 	end
 	end

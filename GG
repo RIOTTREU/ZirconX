@@ -73,8 +73,9 @@ WC = gg.multiChoice({
            "9.ใต้ดิน 95,120 🌆",
            "10.ซิลเวอร์เรด 400 (กลุ่ม) 🎭",
            "11.ดาร์ก ซานต้า 🎅",
-           "12.เซาโร 225 (ฟามโอริ)💎",
-           "13.ยูอา (อีเว้นท์ใหม่)🐙",
+           "12.เซาโร 225 (ฟามโอริ) 💎",
+           "13.ยูอา (อีเว้นท์ใหม่) 🐙",
+           "14.คริสต์มาส (บอส3ตัว) 🎅",
            "🌊ก ลั บ"
 }, nil, "\n⠀⠀⠀⣿⣿⡆⠀⠀⢸⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⢸⣿⡇  ⠀⣾⣿⡆⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⢰⣿⡆⠀⣾⣿⡆⠀⣾⣷ ⣿⣿⡇  ⠀⣿⣿⡇⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⠘⣿⣿⣤⣿⣿⣿⣤⣿⡇⢻⣿⡇⠀⠀⣿⣿⡇⠀\n⠀⠀⠀⣿⣿⡇⠀⠀⢸⡿⠀⢹⣿⣿⣿⣿⣿⣿⣿⠁⢸⣿⣇⠀⢀⣿⣿⠇⠀\n⠀⠀⠀⠙⢿⣷⣶⣶⡿⠁⠀⠈⣿⣿⠟⠀⣿⣿⠇⠀⠈⠻⣿⣶⣾⡿⠋⠀⠀")
   if WC == nil then
@@ -119,6 +120,9 @@ WC = gg.multiChoice({
       WC13()
       end
     if WC[14] == true then
+       WC14()
+       end
+    if WC[15] == true then
        HOME()
   PUBGMH = -1
 end
@@ -1114,10 +1118,10 @@ gg.toast("เสร็จสิ้น⛅")
 end
 
 function WC6()
-A = gg.choice({"วาป","วน (เริ่ม)","วน (ยกเลิก)","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[เดิน 🏃]\n(กด วน (เริ่ม) ก่อน)\nแล้วไปร้านดูดวงแล้วกดวาป😷")
+A = gg.choice({"วาป","วน (เริ่ม)","วน (ยกเลิก)","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรก\n[เดิน 🏃]\n(กด วน (เริ่ม) ก่อน)\nอยู่โลโคโคแล้วไปร้านดูดวงแล้วกดวาป😷")
 if A == 1 then SM() gg.sleep(2500) text1() end
-if A == 2 then SML() end
-if A == 3 then SMUL() UNBACK() end 
+if A == 2 then SML() WC6() end
+if A == 3 then SMUL() UNBACK() warp() end 
 if A == 4 then MN1() end
 HOMEDM=-1
 end
@@ -2128,6 +2132,73 @@ gg.clearResults()
 gg.toast("เสร็จสิ้น⛅")
 end
 		
+function WC14()
+A = gg.choice({"วาป","วน (เริ่ม)","วน (ยกเลิก)","🌊ก ลั บ"},nil,"⚠️คำเตือน⚠️\nวิธีทำอย่างแรกใช้วาปไบลูนก่อน\n[ห้ามเดิน 🏃]\n(กด วน (เริ่ม) ก่อน)\nกดวาป😷")
+if A == 1 then xmasboss() gg.sleep(2500) text2() end
+if A == 2 then xmasboss1() WC14() end
+if A == 3 then xmasboss2() UNBACK() warp() end 
+if A == 4 then MN1() end
+HOMEDM=-1
+end
+
+function xmasboss()  ---- อีเว้นท์คริสต์มาสบอส
+gg.clearResults()
+r = {"-104"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 0
+			p[i].freeze = true
+			gg.addListItems(p)
+			gg.setValues(p)
+			gg.addListItems(p)
+	end	
+gg.clearResults()
+
+gg.clearResults()
+r = {"-100"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 110600
+			p[i].freeze = false
+			gg.setValues(p)
+	end	
+		gg.clearResults()
+		
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
 ------------------------------------------------------------------------------
 
 
@@ -2797,6 +2868,11 @@ function text1() ------- ข้อความ
 gg.setVisible(false)
 gg.alert("ขอให้โชคดี🍀")
 end
+
+function text2() ------- ข้อความ
+gg.setVisible(false)
+gg.alert("ไปทางแมพต่อไปเพื่อเข้าบอส🎅")
+end
 ------------------------------------------------------------------------------
 
 -------------------  N P C  -------------------
@@ -2889,6 +2965,39 @@ gg.clearResults()
 gg.toast("คืนชีพอัตโนมัติ💀")
 end
 		
+		function xmasboss1() 
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("128;1;2:9",gg.TYPE_DWORD)
+gg.refineNumber("2",gg.TYPE_DWORD)
+t = gg.getResults(1)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "4"
+		v.freeze = true
+	end
+	end
+gg.addListItems(t) 
+t = nil
+gg.clearResults()
+gg.toast("เริ่มวน เสร็จสิ้น⛅")
+end
+
+function xmasboss2() 
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("128;10;4:9",gg.TYPE_DWORD)
+gg.refineNumber("4",gg.TYPE_DWORD)
+t = gg.getResults(10)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "4"
+		v.freeze = false
+	end
+	end
+gg.addListItems(t) 
+t = nil
+gg.clearResults()
+gg.toast("ยกเลิกวน เสร็จสิ้น⛅")
+end
 
 function SKIP170()
 gg.clearResults()
@@ -2946,6 +3055,26 @@ gg.clearResults()
 gg.toast("เสร็จสิ้น⛅")
 end
 
+function warp()
+gg.clearResults()
+r = {"220"}
+gg.setRanges(gg.REGION_JAVA_HEAP)
+gg.searchNumber("11001" , gg.TYPE_DWORD)
+gg.refineNumber("11001", gg.TYPE_DWORD)
+q = gg.getResults(1)
+
+for i = 1,#r do
+            p = {}
+			p[i] = {}
+		    p[i].address = q[1].address + r[i]
+			p[i].flags = 4 
+			p[i].value = 1
+			p[i].freeze = false
+			gg.setValues(p)
+	end
+gg.clearResults()
+gg.toast("เสร็จสิ้น⛅")
+end
 ------------------------------------------------------------------------------
 
 

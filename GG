@@ -5,7 +5,7 @@ PASSWORD = gg.prompt({"🍩『ใส่รหัสผ่าน By.ZirconX』�
   gg.setVisible(true)
   os.exit()
 end
-if PASSWORD [1] == "CF" then
+if PASSWORD [1] == "Chin" then
 --  gg.toast("『ยินดีต้อนรับสู่...』")
 else
 gg.toast("รหัสผ่านผิด☕")
